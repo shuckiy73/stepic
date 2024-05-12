@@ -1,4 +1,7 @@
 pip install django
 django-admin startproject testapp
 python manage.py runserver
-
+python manage.py startapp news
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py createsuperuser
