@@ -9,16 +9,6 @@
         voluptatum!</p>
     <button class="btn btn-warning">На страницу про нас</button>
 
-    {% for el in values %}
-    {% if el == 'Hello' %}
-       {% filter upper %}
-        <p>{{ el }}</p>
-        {% endfilter %}
-    {% endif %}
-    {% endfor %}
-
-    {% for el in obj %}
-        <p>{{ el }}</p>
-    {% endfor %}
+    
 </div>
 {% endblock %}

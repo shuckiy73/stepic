@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Artiles
+from .models import Articles
 
-admin.site.register(Artiles)
+admin.site.register(Articles)  # noqa: F821
